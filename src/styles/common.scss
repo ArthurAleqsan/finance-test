@@ -1,0 +1,140 @@
+@import './colors.scss';
+
+#__next {
+  min-width: 375px;
+  height: 100%;
+}
+
+.img-cover {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-contain {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.tippy-popper {
+  .tippy-tooltip {
+    .tippy-tooltip-content {
+      position: inherit;
+      width: 187px;
+      min-height: 52px;
+      border-radius: 4px;
+      background-color: $black;
+      color: $white;
+      font-family: Inter;
+      font-size: 12px;
+      line-height: 130%;
+      padding: 10px 16px;
+    }
+  }
+}
+
+.flexible {
+  display: flex;
+
+  &.horizontal {
+    flex-direction: row;
+  }
+
+  &.vertical {
+    flex-direction: column;
+
+    // svg {
+    //   margin: 0 0 0 10px;
+    // }
+  }
+
+  &.vertical-reverse {
+    flex-direction: column-reverse;
+
+    svg {
+      margin: 0 10px 0 0;
+    }
+  }
+
+  &.jStart {
+    justify-content: flex-start;
+  }
+
+  &.jEnd {
+    justify-content: flex-end;
+  }
+
+  &.jCenter {
+    justify-content: center;
+  }
+
+  &.jAround {
+    justify-content: space-around;
+  }
+
+  &.jBetween {
+    justify-content: space-between;
+  }
+
+  &.aStart {
+    align-items: flex-start;
+  }
+
+  &.aEnd {
+    align-items: flex-end;
+  }
+
+  &.aCenter {
+    align-items: center;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  &.noWrap {
+    flex-wrap: nowrap;
+  }
+
+  &.grow {
+    flex-grow: 1;
+  }
+
+  &.noGrow {
+    flex-grow: 0;
+  }
+
+  &.shrink {
+    flex-shrink: 1;
+  }
+
+  &.noShrink {
+    flex-shrink: 0;
+  }
+  &.pAbsolute {
+    position: absolute;
+  }
+}
+
+.sm-rightMargin {
+  margin-right: 5px;
+}
+
+.col-30 {
+  width: 30%;
+}
+.col-40 {
+  width: 40%;
+}
+.col-48 {
+  width: 48%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-60 {
+  width: 60%;
+}

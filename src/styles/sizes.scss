@@ -1,0 +1,201 @@
+//general vars
+$maxWidth: 1350px;
+
+$input_height: 40px;
+$input_width: 348px;
+
+$check_input_size: 18px;
+
+$close_menu_wrapper_size: 30px;
+
+$close_menu_size: 10px;
+$close_icon_size: 24px;
+
+$scrollbar_thumb_height: 406px;
+
+//categories
+$category_svg_height: 18px;
+
+//loader widget vars
+$loader_spinner_wrapper_size: 39px;
+
+//slider
+$sliderArrowSize: 28px;
+
+//only mobile widgets vars
+$mobileFixedMenuHeight: 60px;
+
+$modal_title_view: 295px;
+
+//header
+$headerTopLineHeight: 74px;
+
+$headerBottomLineHeight: 55px;
+
+$tabletHeight: 112px;
+$headerHeight: 135px;
+$mobileHeaderHeight: 55px;
+
+$tabletTopLineHeight: 60px;
+$tabletBottomLineHeight: 52px;
+
+///need improvements-----------------
+$headerBtnDesktopHeight: 43px;
+$headerBtnMobileHeight: 32px;
+$headerBtnTabletHeight: 31px;
+
+$btn-lg-height: 43px;
+$btn-md-height: 37px;
+$btn-sm-height: 28px;
+
+$headerBtnIconMobileHeight: 39px;
+
+//social icons widget vars
+$socialIconHeight: 24px;
+$socialIconWidth: 24px;
+
+$footer_socialIconSize: 28px;
+
+//logo widget vars
+$logoDesktopHeight: 43px;
+$logoDesktopWidth: 99px;
+
+$logoMobileHeight: 31px;
+$logoMobileWidth: 74px;
+
+$logoTabletHeight: 25px;
+$logoTabletWidth: 60px;
+
+//auth icons widget vars
+$authBtnDesktopMinWidth: 105px;
+
+//language widget vars
+$flagDesktopHeight: 19px;
+
+//wagering widget vars
+$wageringHeight: 24px;
+$wageringWidth: 51px;
+
+//user settings widget vars
+$userSettingsWidth: 55px;
+$user_avatar_size: 40px;
+
+//deposit widget vars
+$depositDesktopWidth: 110px;
+$depositMobileWidth: 45px;
+
+//promotion widget vars
+$promotionWidth: 84px;
+
+//home page widgets vars
+$desktopHomeWidgetWrapperHeight: 296px;
+
+$desktopJackpotWidgetHeight: 176px;
+$desktopJackpotWidgetWidth: 575px;
+
+$desktopTournamentWidgetHeight: 227px;
+$desktopWidgetWidth: 670px;
+$desktopWidgetMdHeight: 274px;
+
+$categoryWidgetDesktopHeight: 130px;
+$categoryWidgetMobileHeight: 82px;
+$categoryWidgetWidth: 440px;
+$categoryWidgetHeight: 82px;
+
+$homeWidgetMaxWidth: 170px;
+$homeWidgetHeight: 180px;
+$homeWidgetBtnHeight: 31px;
+$homeWidgetWrapperHeight: 420px;
+$homeWidgetTitleMaxWidth: 265px;
+$homeWidgetSubtitleMaxWidth: 150px;
+
+//gameTags widget vars
+$game_img_play_size: 76px;
+
+$rounded_game_size: 40px;
+
+$gameTag_desktop_height: 44px;
+$gameTag_mobile_height: 33px;
+
+$game_container_min_height: 240px;
+$game_container_height: 44px;
+
+$gameTags_container_desktop_height: 60px;
+$gameTags_container_mobile_height: 49px;
+
+//providers widget vars
+$provider_btn_min_width: 182px;
+
+$provider_btn_width: 110px;
+$provider_btn_height: 44px;
+
+$provider_img_height: 35px;
+$provider_img_width: 78px;
+
+//search widget vars
+$search_container_height: 48px;
+$search_container_width: 400px;
+
+$search_btn_size: 47px;
+
+$search_icon_height: 40px;
+$search_icon_width: 50px;
+
+//age widget vars
+$age_info_desktop_height: 36px;
+$age_info_desktop_width: 36px;
+
+$age_info_mobile_height: 50px;
+$age_info_mobile_width: 55px;
+
+$age_container_desktop_max_width: 270px;
+$age_container_mobile_max_width: 280px;
+
+//back to top widget vars
+$back_to_top_btn_width: 210px;
+
+//user balance widget vars
+$user_balance_refresh_icon_size: 17px;
+
+$balance_wrapper_max_width: 110px;
+
+//copyRight widget vars
+$copyRight_container_height: 44px;
+
+//gamble widget vars
+$gambleAware_width: 75px;
+$gambleAware_height: 12px;
+
+//license widget vars
+$licence_wrapper_height: 50px;
+
+$licence_iframe_min_width: 130px;
+$licence_iframe_max_width: 150px;
+
+//account modal vars
+$login_history_caption_height: 44px;
+$login_history_list_item_height: 49px;
+
+$account_modal_sidebar_desktop_width: 330px;
+$account_modal_sidebar_item_height: 52px;
+
+$account_modal_sub_section_height: 59px;
+$account_modal_header_height: 91px;
+$account_modal_active_subSection: 43px;
+
+$account_modal_width: 76.25rem;
+$account_modal_max_width: 80vw;
+$account_modal_height: 89vh;
+
+$change_password_width: 351px;
+$change_password_height: 80px;
+
+$account_personal_info_item_height: 60px;
+$account_personal_info_birthDate_item_width: 128px;
+$account_personal_info_item_width: 416px;
+
+$account_modal_payment_information_height: 50px;
+$account_modal_payment_tab_height: 87px;
+$account_modal_payment_tab_width: 140px;
+$account_modal_payment_tab_img_height: 38px;
+$account_modal_payment_tab_img_width: 50px;

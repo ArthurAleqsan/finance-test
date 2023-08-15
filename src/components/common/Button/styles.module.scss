@@ -1,0 +1,134 @@
+/* stylelint-disable selector-max-compound-selectors, selector-class-pattern */
+@import '../../../styles/constants';
+@import '../../../styles/colors';
+@import '../../../styles/mixins';
+@import '../../../styles/functions';
+@import '../../../styles/sizes';
+
+.button {
+  width: 100%;
+  height: inherit;
+  padding: 0 16px;
+  line-height: 1;
+  position: relative;
+  margin: 5px 0;
+  outline: none !important;
+  transition: opacity $anim-time-fast, background-color $anim-time-fast, border-color $anim-time-fast,
+    color $anim-time-fast;
+
+  &_size_lg {
+    height: $btn-lg-height;
+    min-width: $headerBtnDesktopHeight;
+  }
+
+  &_size_md {
+    height: $btn-md-height;
+  }
+
+  &_size_sm {
+    height: $btn-sm-height;
+  }
+  &_size_contained {
+    height: $btn-sm-height;
+    width: fit-content;
+  }
+
+  &.button_variant_contained {
+    width: fit-content;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+
+    div {
+      margin: 0;
+      color: inherit;
+      display: flex;
+      align-items: center;
+    }
+
+    &__typography {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      justify-content: center;
+      white-space: nowrap;
+      width: 100%;
+    }
+
+    &__typography__orientation_left {
+      padding-left: 1.5rem;
+      padding-right: 0.25rem;
+    }
+
+    &__typography__orientation_right {
+      padding-right: 1rem;
+    }
+  }
+
+  &_loading {
+    pointer-events: none;
+    cursor: default;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &_fontWeight {
+    &_bold {
+      font-family: Inter-Bold;
+    }
+
+    &_default {
+      font-weight: initial;
+    }
+  }
+  &_color_primary {
+    color: $text-main;
+  }
+
+  &_minWidth {
+    min-width: unset;
+  }
+
+  &_disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  &_padding {
+    &_xs {
+      padding: 0 16px;
+    }
+
+    &_sm {
+      padding: 0 24px;
+    }
+
+    &_md {
+      padding: 0 32px;
+    }
+
+    &_lg {
+      padding: 0 40px;
+    }
+  }
+
+  .button__icon > div {
+    width: 75%;
+  }
+}

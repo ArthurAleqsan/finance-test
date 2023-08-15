@@ -1,0 +1,50 @@
+@import './styles/sizes.scss';
+@import './styles/mixins.scss';
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.fixed-body {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.overlay {
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    inset: 0;
+    z-index: 9;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+.error-boundary {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+iframe {
+  border: none;
+}

@@ -1,0 +1,27 @@
+@import './../../../styles/colors.scss';
+@import './../../../styles/mixins.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 170px;
+  margin-bottom: 40px;
+  &__btn {
+    color: $text-main;
+  }
+  &__centralWidget {
+    @include center();
+    flex-direction: column;
+    &__logo {
+      width: 42px;
+      height: 42px;
+    }
+    &__text {
+      font-size: 3.625rem; //58px
+    }
+    &__link {
+      color: $text-main;
+    }
+  }
+}
