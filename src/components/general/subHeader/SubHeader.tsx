@@ -26,8 +26,8 @@ const SubHeader: FC = () => {
       </div>
       <div className="col-30">
         <div>
-          <TextField firstText="Vault TVL" secondText="$20.000" variant="primary" />
-          <TextField firstText="Last harvest:" secondText="2 hours ago" />
+          <TextField firstText="Vault TVL" secondText="$20.000" variant="primary" className={styles.infoText} />
+          <TextField firstText="Last harvest:" secondText="2 hours ago" className={styles.infoText} />
         </div>
       </div>
     </div>

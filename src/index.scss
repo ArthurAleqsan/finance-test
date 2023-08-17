@@ -1,9 +1,11 @@
 @import './styles/sizes.scss';
 @import './styles/mixins.scss';
+@import url('https://fonts.googleapis.com/css?family=Unbounded');
+
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Unbounded', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   user-select: none;

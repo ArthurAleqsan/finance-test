@@ -18,11 +18,11 @@ const TextField: FC<Props> = ({ firstText, secondText, variant = 'default', clas
     }
     return 'textPrimary';
   }, [variant]);
-  const secondTypographyVariant: 'body2' | 'subtitle4' = useMemo(() => {
+  const secondTypographyVariant: 'body2' | 'subtitle3' = useMemo(() => {
     if (size === 'sm') {
       return 'body2';
     }
-    return 'subtitle4';
+    return 'subtitle3';
   }, [size]);
   return (
     <div className={cn(styles.container, className)}>
@@ -35,7 +35,11 @@ const TextField: FC<Props> = ({ firstText, secondText, variant = 'default', clas
       >
         {firstText}
       </Typography>
-      <Typography variant={secondTypographyVariant} color={secondTypographyColor}>
+      <Typography
+        variant={secondTypographyVariant}
+        color={secondTypographyColor}
+        className={styles.container__secondText}
+      >
         {secondText}
       </Typography>
     </div>

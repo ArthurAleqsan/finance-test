@@ -1,5 +1,5 @@
-@import './../../../styles/colors.scss';
-@import './../../../styles/mixins.scss';
+@import "./../../../styles/colors.scss";
+@import "./../../../styles/mixins.scss";
 
 .container {
   display: flex;
@@ -22,6 +22,11 @@
     }
     &__link {
       color: $text-main;
+    }
+  }
+  .infoText {
+    h6 {
+      margin: unset;
     }
   }
 }

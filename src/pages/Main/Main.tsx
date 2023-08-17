@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import DepositBar from 'src/components/general/depositBar/DepositBar';
 import Footer from 'src/components/general/footer';
 import Header from 'src/components/general/header';
 import SimpleInfoCard from 'src/components/general/infoCards/SimpleInfoCard';
@@ -18,7 +19,9 @@ const Main: FC = () => {
           <TextInfoCard />
           <img src="/images/Strategy.png" alt="strategy" />
         </div>
-        {/* <div className="col-48"></div> */}
+        <div className="col-40">
+          <DepositBar />
+        </div>
       </div>
       <Footer />
     </>

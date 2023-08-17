@@ -4,5 +4,10 @@
   justify-content: flex-end;
   &__firstText {
     margin-right: 0.75rem;
+    white-space: nowrap;
+  }
+  &__secondText {
+    margin-right: 0.75rem;
+    white-space: nowrap;
   }
 }
